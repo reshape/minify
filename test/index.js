@@ -6,7 +6,11 @@ const test = require('ava')
 const fixtures = path.join(__dirname, 'fixtures')
 
 test('aggressively collapses whitespace', (t) => {
-  return compare(t, 'whitespace_aggressive', { aggressiveWhitespace: true })
+  return compare(t, 'whitespace_aggressive', { aggressiveCollapse: true })
+})
+
+test('conservatively collapses whitespace', (t) => {
+  return compare(t, 'whitespace_conservative', { conservativeCollapse: true })
 })
 
 test('collapses whitespace', (t) => compare(t, 'whitespace'))
@@ -27,6 +31,6 @@ function compare (t, name, opts, log) {
     .process(input)
     .tap((res) => log && console.log(res.output()))
     .then((res) => {
-      t.is(res.output(), expected.trim())
+      t.is(res.output().trim(), expected.trim())
     })
 }

@@ -36,7 +36,9 @@ Options are passed in an object, all are optional.
 
 | Name | Description | Default |
 | ---- | ----------- | ------- |
-| **aggressiveWhitespace** | More aggressive whitespace removal | `false` |
+| **collapseWhitespace** | Removes all extra whitespace | `true` |
+| **conservativeCollapse** | Instead of fully removing excess whitespace, collapses down to a single space | `false` |
+| **aggressiveCollapse** | More aggressive whitespace removal, trims all whitespace from beginning and ends of any text | `false` |
 | **removeComments** | Removes all comments from the html | `true` |
 | **minifyCss** | Minifies any CSS in `style` tags | `true` |
 | **minifyJs** | Minifies any JS in `script` tags | `true` |
