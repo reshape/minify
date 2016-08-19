@@ -1,7 +1,7 @@
 {
   "name": "reshape-minify",
   "description": "a reshape plugin to minify html",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "reshape",
   "ava": {
     "verbose": "true"
