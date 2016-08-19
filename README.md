@@ -46,8 +46,8 @@ Options are passed in an object, all are optional.
 #### To-Do List
 
 - [unquote attributes](https://github.com/kangax/html-minifier/blob/gh-pages/src/htmlminifier.js#L106)
-- [remove trailing zeros on viewport meta]((https://github.com/kangax/html-minifier/blob/gh-pages/src/htmlminifier.js#L301))
-- [remove optional parent tags]((https://github.com/kangax/html-minifier/blob/gh-pages/src/htmlminifier.js#L369))
+- [remove trailing zeros on viewport meta](https://github.com/kangax/html-minifier/blob/gh-pages/src/htmlminifier.js#L301)
+- [remove optional parent tags](https://github.com/kangax/html-minifier/blob/gh-pages/src/htmlminifier.js#L369)
 - [minify urls](https://github.com/stevenvachon/relateurl)
 
 ### License & Contributing
