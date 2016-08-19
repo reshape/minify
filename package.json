@@ -1,0 +1,38 @@
+{
+  "name": "reshape-minify",
+  "description": "a reshape plugin to minify html",
+  "version": "0.0.0",
+  "author": "reshape",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/reshape/reshape-minify/issues",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0",
+    "reshape": "^0.3.1",
+    "snazzy": "^4.0.1",
+    "standard": "^7.1.2"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "homepage": "https://github.com/reshape/reshape-minify",
+  "license": "MIT",
+  "main": "lib",
+  "repository": "reshape/reshape-minify",
+  "scripts": {
+    "test": "nyc ava",
+    "lint": "standard | snazzy",
+    "coverage": "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "cssnano": "^3.7.4",
+    "indx": "^0.2.3",
+    "reshape-plugin-util": "^0.2.1",
+    "svgo": "^0.6.6",
+    "uglify-js": "^2.7.3"
+  }
+}
