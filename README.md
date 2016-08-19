@@ -1,9 +1,9 @@
 # reshape-minify
 
 [![npm](https://img.shields.io/npm/v/reshape-minify.svg?style=flat-square)](https://npmjs.com/package/reshape-minify)
-[![tests](https://img.shields.io/travis/reshape/reshape-minify.svg?style=flat-square)](https://travis-ci.org/reshape/reshape-minify?branch=master)
-[![dependencies](https://img.shields.io/david/reshape/reshape-minify.svg?style=flat-square)](https://david-dm.org/reshape/reshape-minify)
-[![coverage](https://img.shields.io/coveralls/reshape/reshape-minify.svg?style=flat-square)](https://coveralls.io/r/reshape/reshape-minify?branch=master)
+[![tests](https://img.shields.io/travis/reshape/minify.svg?style=flat-square)](https://travis-ci.org/reshape/minify?branch=master)
+[![dependencies](https://img.shields.io/david/reshape/minify.svg?style=flat-square)](https://david-dm.org/reshape/minify)
+[![coverage](https://img.shields.io/coveralls/reshape/minify.svg?style=flat-square)](https://coveralls.io/r/reshape/minify?branch=master)
 
 A reshape plugin to minify html
 

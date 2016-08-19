@@ -6,7 +6,7 @@
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/reshape/reshape-minify/issues",
+  "bugs": "https://github.com/reshape/minify/issues",
   "devDependencies": {
     "ava": "^0.16.0",
     "coveralls": "^2.11.12",
@@ -18,10 +18,10 @@
   "engines": {
     "node": ">= 6"
   },
-  "homepage": "https://github.com/reshape/reshape-minify",
+  "homepage": "https://github.com/reshape/minify",
   "license": "MIT",
   "main": "lib",
-  "repository": "reshape/reshape-minify",
+  "repository": "reshape/minify",
   "scripts": {
     "test": "nyc ava",
     "lint": "standard | snazzy",
