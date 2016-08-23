@@ -1,6 +1,7 @@
 {
   "name": "reshape-minify",
-  "description": "a reshape plugin to minify html",
+  "description": "minifies html by removing extra whitespace and
+  newlines",
   "version": "0.1.0",
   "author": "reshape",
   "ava": {
