@@ -22,6 +22,7 @@ test('minifies json', (t) => compare(t, 'json'))
 test('minifies svg', (t) => compare(t, 'svg'))
 test('removes redundant attributes', (t) => compare(t, 'redundant_attr'))
 test('removes comments', (t) => compare(t, 'comments'))
+test('handles custom tags', (t) => compare(t, 'custom_tag'))
 
 function compare (t, name, opts, log) {
   const input = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
