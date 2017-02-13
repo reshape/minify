@@ -10,6 +10,7 @@
   "dependencies": {
     "cssnano": "^3.7.4",
     "indx": "^0.2.3",
+    "reshape-expressions": "^0.1.4",
     "reshape-plugin-util": "^0.2.1",
     "svgo": "^0.7.0",
     "uglify-js": "^2.7.3"

@@ -4,6 +4,7 @@ const reshape = require('reshape')
 const {readFileSync} = require('fs')
 const test = require('ava')
 const fixtures = path.join(__dirname, 'fixtures')
+const exp = require('reshape-expressions')
 
 test('aggressively collapses whitespace', (t) => {
   return compare(t, 'whitespace_aggressive', { aggressiveCollapse: true })
@@ -23,15 +24,16 @@ test('minifies svg', (t) => compare(t, 'svg'))
 test('removes redundant attributes', (t) => compare(t, 'redundant_attr'))
 test('removes comments', (t) => compare(t, 'comments'))
 test('handles custom tags', (t) => compare(t, 'custom_tag'))
+test('handles expressions in tags', (t) => compare(t, 'expressions_in_tags'))
 
 function compare (t, name, opts, log) {
   const input = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
 
-  return reshape({ plugins: minify(opts) })
+  return reshape({ plugins: [ exp(), minify(opts) ] })
     .process(input)
-    .tap((res) => log && console.log(res.output()))
+    .tap((res) => log && console.log(res.output({ testId: 'thisIsId', testClass: 'thisIsClass', testContent: 'thisIsContent' })))
     .then((res) => {
-      t.is(res.output().trim(), expected.trim())
+      t.is(res.output({ testId: 'thisIsId', testClass: 'thisIsClass', testContent: 'thisIsContent' }).trim(), expected.trim())
     })
 }
