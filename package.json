@@ -1,7 +1,7 @@
 {
   "name": "reshape-minify",
   "description": "minifies html by removing extra whitespace and newlines",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "reshape",
   "ava": {
     "verbose": "true"
