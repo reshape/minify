@@ -3562,6 +3562,14 @@ reshape-code-gen@^0.2.1:
     objectfn "^2.0.0"
     with "^5.1.1"
 
+reshape-eval-code@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/reshape-eval-code/-/reshape-eval-code-0.3.3.tgz#a366ff29f893a16beb94c48722c028ac54af29a8"
+  dependencies:
+    reshape-code-gen "^0.2.1"
+    reshape-parser "^0.2.1"
+    reshape-plugin-util "^0.2.1"
+
 reshape-expressions@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/reshape-expressions/-/reshape-expressions-0.1.5.tgz#28c12bf35de40263362499cead0b044321e4a78c"
