@@ -1,5 +1,7 @@
 # reshape-minify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/reshape/minify.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/reshape-minify.svg?style=flat-square)](https://npmjs.com/package/reshape-minify)
 [![tests](https://img.shields.io/travis/reshape/minify.svg?style=flat-square)](https://travis-ci.org/reshape/minify?branch=master)
 [![dependencies](https://img.shields.io/david/reshape/minify.svg?style=flat-square)](https://david-dm.org/reshape/minify)
