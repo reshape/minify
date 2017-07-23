@@ -14,15 +14,15 @@
     "reshape-parser": "^0.2.1",
     "reshape-plugin-util": "^0.2.1",
     "svgo": "^0.7.0",
-    "uglify-js": "^2.7.3"
+    "uglify-js": "^3.0.26"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
-    "coveralls": "^2.11.12",
-    "nyc": "^10.0.0",
+    "ava": "^0.21.0",
+    "coveralls": "^2.13.1",
+    "nyc": "^11.0.3",
     "reshape": "^0.4.0",
     "reshape-eval-code": "^0.3.3",
-    "snazzy": "^6.0.0",
+    "snazzy": "^7.0.0",
     "standard": "^10.0.0"
   },
   "engines": {
