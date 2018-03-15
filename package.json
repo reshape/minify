@@ -23,7 +23,7 @@
     "reshape": "^0.4.0",
     "reshape-eval-code": "^0.3.3",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.0"
+    "standard": "^11.0.1"
   },
   "engines": {
     "node": ">= 6"
