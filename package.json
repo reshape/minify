@@ -11,7 +11,7 @@
     "cssnano": "^3.7.4",
     "indx": "^0.2.3",
     "reshape-expressions": "^0.1.4",
-    "reshape-parser": "^0.3.0",
+    "reshape-parser": "^1.0.0",
     "reshape-plugin-util": "^0.2.1",
     "svgo": "^0.7.0",
     "uglify-js": "^3.0.26"
