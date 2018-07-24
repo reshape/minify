@@ -20,7 +20,7 @@
     "ava": "^0.21.0",
     "coveralls": "^2.13.1",
     "nyc": "^11.0.3",
-    "reshape": "^0.4.0",
+    "reshape": "^1.0.0",
     "reshape-eval-code": "^0.3.3",
     "snazzy": "^7.0.0",
     "standard": "^10.0.0"
