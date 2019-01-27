@@ -17,7 +17,7 @@
     "uglify-js": "^3.0.26"
   },
   "devDependencies": {
-    "ava": "^0.21.0",
+    "ava": "^1.2.0",
     "coveralls": "^2.13.1",
     "nyc": "^11.0.3",
     "reshape": "^0.5.0",
